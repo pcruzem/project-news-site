@@ -1,4 +1,32 @@
 html {
-  background: #0025ff;
+  background: #ededee;
   color: #fff;
 }
+.logo img {
+  height: 250px;
+  width: 350px;
+  margin-top: -50px;
+}
+.nav-bar  {
+  background-color:#75abd8;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  }
+ 
+.nav-bar a {
+/*   display: flex;
+  justify-content: space-around;
+  align-items: center; */
+  color: #fff;
+  text-decoration: none;
+}
+
+/*sticky navbar */
+ .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+} 
